@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<!-- Will Green -->
+
+</html>
+    <head>
+        <title>FAKE Intuit account signup</title>
+        <link a href="style.css" rel="stylesheet" type="text/css">
+
+        <!-- This stylesheet is for the lock logo -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Sign in section -->
+        <div class="sign-in">
+            <p>Already have an Intuit account?<br><a href="#">I forgot my User ID or Password</a></p>            
+            <button class="sign-in-button"><i class="fa fa-lock"></i> Sign In</button>
+        </div>
+
+        <!-- Logos -->
+        <header class="pictures">
+            <!-- Intuit logo-->
+            <a href=""><img id="logo" src="./images/logo.png"></a>
+            <!-- Picture buttons -->
+            <div class="three-logo-section">
+                <ul class="icons">
+                    <li><img src="./images/mint.png"></li>
+                    <li id="icon-text">mint</li>
+                    <li><img src="./images/quickbooks.png"></li>
+                    <li id="icon-text">quickbooks</li>
+                    <li><img src="./images/turbotax.png"></li>
+                    <li id="icon-text">turbotax</li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <!-- Form header -->
+            <header>
+                <div class="catch-phrase">One Account.<br>Everything Intuit.</div>
+                <div class="sub-phrase">
+                    Create an account for all of Intuit's products<br>including Mint. <a href="#" id="learn-more">Learn more</a>
+                </div>               
+            </header>
+
+            <!-- Main form -->
+            <form>
+
+                <!-- Input fields -->
+                <fieldset class="account-info">
+                    <label>
+                        <span>Email address<br></span>
+                        <input type="text" name="email">
+                    </label>
+                    <label>
+                        <span>Phone (recommended)</span><br>
+                        <input type="text" name="phone"><br>
+                        <span id="data-rates-disclaimer">Standard call, messaging or data rates may apply.</span>
+                    </label>
+                    <label id="password">
+                        <span>Password<br></span>
+                        <input type="text"name="password">
+                    </label>
+                </fieldset>
+
+                <!-- Submit button -->
+                <fieldset class="account-action">
+                    <button><i class="fa fa-lock"></i> Create Account</button>
+                </fieldset>
+            </form>
+
+            <!-- Terms of Use-->
+            <div class="terms-of-use">
+                <span>
+                    By clicking Create Account, you agree to our<br>
+                    <a href="#">License Agreement</a> and have read and acknowledge<br>our <a href="#">Privacy Statement</a>.
+                </span>
+            </div>
+
+            <!-- CAPTCH statement-->
+            <div class="captcha">
+                <span>
+                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+                </span>
+            </div>
+        </main>
+    </body>
+
+    <!-- Copywrite statement -->
+    <footer>
+        <ul class="legal-privacy-security">
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+        </ul>
+        <span>
+            &copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </span>
+    </footer>
+</html>
